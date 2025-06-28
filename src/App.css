@@ -1,0 +1,28 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+#root{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+#login_container{
+    @apply flex items-center justify-center h-full w-full;
+}
+
+#login_form {
+    @apply flex flex-col;
+}
+
+.login_input {
+    @apply h-10 w-80 text-black m-2 p-2 rounded-md border-2 border-gray-300 mb-4;
+}
+
+#login_button {
+    @apply h-10 w-20 bg-green-500 text-white m-2 rounded-md hover:bg-green-600 self-center;
+}
