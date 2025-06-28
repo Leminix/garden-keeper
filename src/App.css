@@ -5,7 +5,7 @@ html, body {
     padding: 0;
 }
 
-#root{
+#root {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -13,7 +13,8 @@ html, body {
 
 /* --------------- tailwind ------------- */
 
-#login_container{
+/*-------------login -------------*/
+#login_container {
     @apply flex items-center justify-center h-full w-full;
 }
 
@@ -27,4 +28,10 @@ html, body {
 
 #login_button {
     @apply h-10 w-20 bg-green-500 text-white m-2 rounded-md hover:bg-green-600 self-center;
+}
+
+
+/* -------------dashboard -------------*/
+#dashboard_style{
+    @apply h-full w-full flex flex-col flex-wrap bg-white;
 }
