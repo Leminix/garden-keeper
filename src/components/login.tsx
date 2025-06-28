@@ -31,6 +31,12 @@ const Login = () => {
 
               <Link to="/dashboard"></Link>  // redirect to dashboard if login is successful
 
+            }else{
+
+              alert('Login failed. Please check your credentials.')  // show error message if login fails
+              user_name.value = ''  // clear the input fields
+              user_password.value = ''
+
             }
             
           }

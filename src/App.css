@@ -11,6 +11,8 @@ html, body {
     display: flex;
 }
 
+/* --------------- tailwind ------------- */
+
 #login_container{
     @apply flex items-center justify-center h-full w-full;
 }
