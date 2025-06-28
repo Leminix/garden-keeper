@@ -52,8 +52,8 @@ const Login = () => {
 
   return (
     <div id="login_container" className="login_container">
-      
       <form id="login_form" className="login_form">
+        <h1 className="login_title">LOG IN</h1>
         <input type="text" id="user_name" className="login_input" placeholder="Enter user name" required/>
         <input type="password" id="user_password" className="login_input" placeholder="Enter user password" required/>
         <button type="submit" id="login_button" className="login_button">Login</button>

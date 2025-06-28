@@ -22,6 +22,10 @@ html, body {
     @apply flex flex-col;
 }
 
+.login_title {
+    @apply text-2xl font-bold mb-4 self-center;
+}
+
 .login_input {
     @apply h-10 w-80 text-black m-2 p-2 rounded-md border-2 border-gray-300 mb-4;
 }
